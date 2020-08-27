@@ -1,0 +1,19 @@
+{
+  "name": "nodecli-learn",
+  "version": "1.0.1",
+  "description": "test node cli",
+  "main": "./src/index.js",
+  "bin": {
+    "encaik": "./bin/encaik-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "cli",
+    "learn"
+  ],
+  "author": "Encaik",
+  "license": "ISC"
+}

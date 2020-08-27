@@ -1,6 +1,6 @@
 {
   "name": "nodecli-learn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "test node cli",
   "main": "./src/index.js",
   "bin": {
@@ -15,5 +15,8 @@
     "learn"
   ],
   "author": "Encaik",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "optimist": "^0.6.1"
+  }
 }

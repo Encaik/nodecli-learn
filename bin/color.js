@@ -56,7 +56,7 @@ function color(color, background, text) {
     default:
       break;
   }
-  return "\033" + `[${colors.join(";")}m ${text}` + "\033[0m";
+  return "\033" + `[${colors.join(";")}m ${text} ` + "\033[0m";
 }
 
 module.exports = color;

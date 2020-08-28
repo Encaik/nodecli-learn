@@ -17,6 +17,17 @@
   "author": "Encaik",
   "license": "ISC",
   "dependencies": {
-    "optimist": "^0.6.1"
+    "axios": "^0.20.0",
+    "filereader": "^0.10.3",
+    "inquirer": "^7.3.3",
+    "jsdom": "^16.4.0",
+    "optimist": "^0.6.1",
+    "puppeteer": "^5.2.1"
+  },
+  "devDependencies": {
+    "async": "^3.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "iconv-lite": "^0.6.2",
+    "request": "^2.88.2"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "nodecli-learn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "test node cli",
   "main": "./src/index.js",
   "bin": {

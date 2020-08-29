@@ -1,11 +1,9 @@
 {
   "name": "nodecli-learn",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "test node cli",
   "main": "./src/index.js",
-  "bin": {
-    "encaik": "./bin/encaik-cli.js"
-  },
+  "bin": "./bin/encaik-cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,12 +15,8 @@
   "author": "Encaik",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.20.0",
-    "filereader": "^0.10.3",
     "inquirer": "^7.3.3",
-    "jsdom": "^16.4.0",
-    "optimist": "^0.6.1",
-    "puppeteer": "^5.2.1"
+    "optimist": "^0.6.1"
   },
   "devDependencies": {
     "async": "^3.2.0",

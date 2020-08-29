@@ -3,7 +3,7 @@ let color = require("./color");
 let encaik = require("../src/index");
 let optimist = require("optimist");
 let option = optimist
-  .usage("瞎几把使。\nUsage: encaik <commond> [option]")
+  .usage("瞎几把使。\nUsage: motime <commond> [option]")
   .boolean("v")
   .alias("v", "version")
   .describe("v", "查看版本号")

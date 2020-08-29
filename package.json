@@ -1,9 +1,11 @@
 {
   "name": "nodecli-learn",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "test node cli",
   "main": "./src/index.js",
-  "bin": "./bin/encaik-cli.js",
+  "bin": {
+    "encaik": "./bin/encaik-cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

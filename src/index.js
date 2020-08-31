@@ -40,8 +40,16 @@ module.exports = {
           let books = [];
           $("#sitembox dl").each((index, item) => {
             let a = $(item).find("h3 a");
+            let b = $(item).find(".book_other");
             booknames.push({
-              name: a.text(),
+              name: `书名：${a.text()}\n${b
+                .text()
+                .replace("作者：", "  作者：")
+                .replace("状态：", "\t状态：")
+                .replace("分类：", "\t分类：")
+                .replace("字数：", "\t字数：")
+                .replace("最新章节：", "\n  最新章节：")
+                .replace("更新时间：", "\t更新时间：")}`,
               value: index,
             });
             books.push(a.attr("href"));
@@ -70,14 +78,12 @@ module.exports = {
                     let nodenames = [];
                     let nodes = [];
                     $("#list dl dd").each((index, item) => {
-                      if (index < 12) {
-                        let a = $(item).find("a");
-                        nodenames.push({
-                          name: a.text(),
-                          value: index,
-                        });
-                        nodes.push(a.attr("href"));
-                      }
+                      let a = $(item).find("a");
+                      nodenames.push({
+                        name: a.text(),
+                        value: index,
+                      });
+                      nodes.push(a.attr("href"));
                     });
                     inquirer
                       .prompt([

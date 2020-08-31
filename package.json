@@ -1,6 +1,6 @@
 {
   "name": "nodecli-learn",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "test node cli",
   "main": "./src/index.js",
   "bin": {
@@ -18,12 +18,11 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^7.3.3",
-    "optimist": "^0.6.1"
-  },
-  "devDependencies": {
+    "optimist": "^0.6.1",
     "async": "^3.2.0",
     "cheerio": "^1.0.0-rc.3",
     "iconv-lite": "^0.6.2",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {}
 }
